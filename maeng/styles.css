@@ -12,12 +12,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #579057;
-  text-decoration: underline;
-}
-
-
 /* =============== 히어로 영역 =============== */
 .hero {
   position: relative;
@@ -108,7 +102,7 @@ a:hover {
   display: block;
   font-size: 0.9rem;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -149,6 +143,11 @@ a:hover {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+a:hover {
+  color: #579057;
+  text-decoration: underline;
 }
 
 
